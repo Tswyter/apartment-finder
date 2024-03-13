@@ -1,1 +1,2 @@
-# apartment-finder
+# Apartment Finder
+This respository will hold the source files for an application that pulls MLS listings of apartments via an API. This application will provide a method to view current listings and hide listings that have been determined unsuitable. AI will help users determine the best options around them given their specific financial situation as well as their personal preferences. 
