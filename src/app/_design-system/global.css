@@ -1,0 +1,55 @@
+:root {
+  --primary-color: #0984e3;
+  --secondary-color: #e17055;
+  --success-color: #28A745;
+  --info-color: #17A2B8;
+  --warning-color: #FFC107;
+  --danger-color: #DC3545;
+  --light-color: #F8F9FA;
+  --dark-color: #343A40;
+  
+  --font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
+  
+  --border-radius: 0.25rem;
+  --border-color: #dee2e6;
+  
+  --box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+
+  --h1-font-size: 2.5rem;
+  --h2-font-size: 2rem;
+  --h3-font-size: 1.75rem;
+  --h4-font-size: 1.5rem;
+  --h5-font-size: 1.25rem;
+  --h6-font-size: 1rem;
+  --h1-font-weight: 300;
+  --h2-font-weight: 300;
+  --h3-font-weight: 300;
+  --h4-font-weight: 300;
+  --h5-font-weight: 300;
+  --h6-font-weight: 300;
+  --p-font-size: 1rem;
+  --p-font-weight: 400;
+  --small-font-size: 0.875rem;
+  --small-font-weight: 400;
+  --dark-text-color: #343A40;
+  --light-text-color: #F8F9FA;
+  --light-link-color: #007bff;
+  --light-link-hover-color: #0056b3;
+  --dark-link-color: #FFC107;
+  --dark-link-hover-color: #FFC107;
+}
+
+body {
+  background-color: var(--light-color);
+  font-family: var(--font-family-sans-serif);
+}
+
+a {
+  color: var(--light-link-color);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--light-link-hover-color);
+}
