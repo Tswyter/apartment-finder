@@ -1,0 +1,9 @@
+.chatInput {
+  padding: 1.5rem 1rem;
+  border-top: 1px solid #ccc;
+}
+
+.chatInput textarea {
+  width: 100%;
+  min-height: 6rem;
+}
